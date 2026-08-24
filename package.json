@@ -1,0 +1,23 @@
+{
+    "name": "week-08-course-selling-app",
+    "version": "1.0.0",
+    "description": "A simple course selling application built with Node.js and Express.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^9.8.0",
+        "nodemon": "^3.1.14",
+        "zod": "^4.4.3"
+    }
+}
